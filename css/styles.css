@@ -558,8 +558,6 @@ p {
   margin-bottom: 16px;
 }
 
-.form-label {
-}
 .form-input {
   background-color: transparent;
   font-size: 12px;
@@ -608,9 +606,8 @@ p {
 }
 
 .footer-form-icons {
-  width: 24px;
-  height: 24px;
   fill: var(--WHITE);
+  margin-left: 16px;
 }
 /* modal window */
 .backdrop {
