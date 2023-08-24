@@ -545,6 +545,7 @@ p {
 
 .form {
   display: flex;
+  gap: 24px;
 }
 
 .form-text {
@@ -560,17 +561,19 @@ p {
 .form-label {
 }
 .form-input {
+  background-color: transparent;
   font-size: 12px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.48px;
   width: 264px;
   height: 40px;
+  color: #ffffff;
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin-right: 24px;
-  background: var(--navyblue, #2e2f42);
+
   padding: 8px 212px 8px 16px;
 }
 .form-button {
@@ -601,7 +604,7 @@ p {
 }
 
 .form-input::placeholder {
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-form-icons {
