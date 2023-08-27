@@ -773,9 +773,23 @@ p {
 }
 .form-btn {
 }
+.chekbox-text{
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
 .checbox{
   margin-top: 16px;
  margin-bottom: 24px;
+}
+.form-chekbox{
+  display: block; 
+  font-size: 12px;
+  line-height: 1.17; 
+  letter-spacing: 0.04em;
+  color: var( #8e8f99);
+
+
 }
 .text-checbox {
   font-size: 12px;
