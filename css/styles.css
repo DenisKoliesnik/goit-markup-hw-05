@@ -697,6 +697,7 @@ p {
  margin-bottom: 8px;
   
 }
+.modal-content-placeholder{ margin-bottom: 16px}
 .modal-item-icons {
   position: relative;
   display: flex;
