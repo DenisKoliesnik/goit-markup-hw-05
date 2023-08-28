@@ -670,8 +670,7 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-modal {
-}
+
 .modal-text {
   display: block;
   width: 360px;
@@ -771,6 +770,7 @@ p {
 
 .chekbox {
   display: flex;
+  margin-bottom: 24px
  
 }
 
@@ -785,16 +785,25 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid rgba(46, 47, 66, 0.40)  ;
+  border-radius: 6px;
   width: 16px;
   height: 16px;
-  border: 1px  ;
-  border-color: #0b1de3;
-  border-radius: 6px;
+  color: transparent;
   
 }
-.text-checbox-icons{ }
 
 
+.text-checbox-icons{
+  fill: currentColor;
+ }
+ 
+
+input[type="checkbox"]:checked + .text-checbox{
+  background-color: #404bbf;
+  border-color: #404bbf;
+  color: var(--light-slate);
+}
 
 .text-checbox-link {
   color: var(--lightslate, #8e8f99);
