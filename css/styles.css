@@ -769,7 +769,6 @@ p {
 }
 
 .chekbox {
-  display: flex;
   margin-bottom: 24px
  
 }
@@ -799,7 +798,7 @@ p {
  }
  
 
-input[type="checkbox"]:checked + .text-checbox{
+.checkbox:checked + .form-chekbox> .text-checbox{
   background-color: #404bbf;
   border-color: #404bbf;
   color: var(--light-slate);
