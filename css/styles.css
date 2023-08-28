@@ -693,11 +693,8 @@ p {
   background-color: transparent;
 }
 
-.modal-content-block{
-  margin-top: 8px;
-}
 .modal-content {
- 
+ margin-bottom: 8px;
   margin-bottom: 16px 
 }
 .modal-item-icons {
